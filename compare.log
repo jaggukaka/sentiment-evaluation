@@ -1,0 +1,22 @@
+DEBUG:APICompare.Datumbox:Got response: {u'output': {u'status': 1, u'result': u'negative'}}
+DEBUG:APICompare.Datumbox:Got response: {u'output': {u'status': 1, u'result': u'neutral'}}
+DEBUG:APICompare.Datumbox:Got response: {u'output': {u'status': 1, u'result': u'neutral'}}
+DEBUG:APICompare.Datumbox:Got response: {u'output': {u'status': 1, u'result': u'neutral'}}
+DEBUG:APICompare.Datumbox:Got response: {u'output': {u'status': 1, u'result': u'neutral'}}
+DEBUG:APICompare.Datumbox:Got response: {u'output': {u'status': 1, u'result': u'positive'}}
+DEBUG:APICompare.Datumbox:Got response: {u'output': {u'status': 0, u'error': {u'ErrorCode': 4, u'ErrorMessage': u'Unexpected Error'}}}
+ERROR:APICompare.Thr:'result'
+Traceback (most recent call last):
+  File "/Users/jreddypyla/Documents/mystudy/sentiment-evaluation/thr.py", line 23, in run
+    output = self.func(*self.args)
+  File "/Users/jreddypyla/Documents/mystudy/sentiment-evaluation/datumbox.py", line 35, in analyse
+    return self.extract_label(data['output']['result'])
+KeyError: 'result'
+DEBUG:APICompare.Datumbox:Got response: {u'output': {u'status': 1, u'result': u'negative'}}
+DEBUG:APICompare.Datumbox:Got response: {u'output': {u'status': 1, u'result': u'negative'}}
+DEBUG:APICompare.Datumbox:Got response: {u'output': {u'status': 1, u'result': u'negative'}}
+DEBUG:APICompare.Datumbox:Got response: {u'output': {u'status': 1, u'result': u'neutral'}}
+DEBUG:APICompare.Datumbox:Got response: {u'output': {u'status': 1, u'result': u'negative'}}
+DEBUG:APICompare.Datumbox:Got response: {u'output': {u'status': 1, u'result': u'negative'}}
+DEBUG:APICompare.Datumbox:Got response: {u'output': {u'status': 1, u'result': u'neutral'}}
+DEBUG:APICompare.Datumbox:Got response: {u'output': {u'status': 1, u'result': u'positive'}}
